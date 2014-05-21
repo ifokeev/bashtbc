@@ -1,0 +1,84 @@
+/* CSS Document */
+body{ margin: 0px; font: 11px Tahoma; color: #454545; background: #ffffff;}
+img{ border-width: 0px;}
+#div0{ float: left; position: absolute; left: 0px; top: 0px; width: 100%; min-width: 1000px; width: expression((document.documentElement.clientWidth||document.body.clientWidth)<1000?'1000px':'100%');}
+#main{ position: absolute; left: 50%; top: 0px; margin-left: -450px; width: 900px; float:left; padding: 20px 0px;}
+#top_box{ float:left; width: 100%;}
+#top_lt{ float:left; padding-top: 32px;}
+#top_cent{ float:left; width: 740px; background: url(images/top_bg.gif) repeat-x;}
+#bashTBC{ float:left; padding: 19px 0px 0px 60px;}
+#read_box{ float:right; padding: 20px 30px 0px 0px;}
+#read_all{ float:left; padding: 8px 17px 0px 0px;}
+#rss{ float:left;}
+#top_bt{ float:left; width: 100%;}
+#top_rt{ float: left; padding-top: 8px;}
+#cont_box{ padding: 0px 80px 0px 74px; }
+.menu_block{ float:left; padding: 0px 40px; width: 660px; margin-bottom: 10px;}
+.menu_box{ float:left; width: 100%; background: url(images/bord.gif) repeat-x bottom; padding: 6px 0px;}
+.menu_box div{ float: left; padding-left: 20px; font-weight: bold;}
+.menu_box div a{ text-decoration: none; color:#0CC6DC;}
+.menu_box div a:hover{ color:#B8B8B8;}
+.date a{ text-decoration: none; color:#0CC6DC; font-weight: bold;}
+.date a:hover{ color:#B8B8B8;}
+#reklama_box{ float:left; border: 1px solid #E8E0D0; width: 738px; margin: 10px 0px;}
+#reklama_box img{ padding: 15px 0px;}
+.stat_box{ float:left; border: 1px solid #E8E0D1; background: url(images/stat_bg.gif) repeat-x; margin: 10px 0px;}
+.stat_box1{ float:left; width: 740px; background: url(images/lt_corn.gif) no-repeat left top; margin: -1px;}
+.stat_box2{ float:left; width: 100%; background: url(images/rt_corn.gif) no-repeat right top;}
+.stat_box3{ float:left; width: 100%; background: url(images/lb_corn.gif) no-repeat left bottom;}
+.stat_box4{ float:left; width: 100%; background: url(images/rb_corn.gif) no-repeat right bottom;}
+.stat_box4 div{ padding: 13px 10px 13px 90px; float:left;}
+.stat_box4 h1{ font: bold 16px Tahoma; margin: 0px; padding: 10px 0px; text-align: center;}
+.text_box{ float:left; width: 100%; margin: 10px 0px;}
+.number_box{ float:left; border: solid #E8E0D1; border-width: 1px 1px 0px 1px;}
+.number_box1{float:left; width: 340px; background: url(images/lt_corn.gif) no-repeat left top; margin: -1px;}
+.number_box2{float:left; width: 100%; background: url(images/rt_corn.gif) no-repeat right top; padding: 10px 0px;}
+.number_box2 div{ float:left; font-weight: bold;}
+.number_box2 div a{ text-decoration: none; color:#0CC6DC;}
+.numb_link{ padding-left:25px;}
+.call{ padding:0px 7px;}
+.approved{padding-left: 5px;}
+.date{ float:right; padding: 10px 30px;}
+.citata{ border: 1px solid #E8E0D1; background: #F1E9E1 url(images/box_bash_bg.jpg) repeat-x; float:left;}
+.citata1{float:left; width: 740px; background: url(images/rt_corn.gif) no-repeat right top; margin: -1px;}
+.citata2{float:left; width: 100%; background: url(images/rb_corn.gif) no-repeat right bottom;}
+.citata3{float:left; width: 690px; background: url(images/lb_corn.gif) no-repeat left bottom; padding: 17px 25px;}
+#bez_bord{ background: none;}
+#bot_box{ float:left; width: 100%;}
+#bot_lt{ float:left; padding-top: 22px;}
+#bot_cent{ float:left; width: 740px; background: url(images/bot_bg.gif) repeat-x; height: 59px;}
+#bashTBC_text{ float:left; padding: 23px 0px 0px 30px; font: 11px Tahoma; color:#454545;}
+#cont{ float:right; padding: 23px;}
+#cont a{ font-weight: bold; color:#0CC6DC; text-decoration: none;}
+#cont a:hover{color:#B8B8B8;}
+#bot_bt{ float:left; width: 100%;}
+#bot_rt{ float: left; padding-top: 22px;}
+
+#add_box{ padding: 0px 40px; width: 660px; float:left;}
+#add_box p{ padding: 30px 20px; margin: 0px;}
+#add_box textarea{ width: 648px; border: 1px solid #E6E5E2; background:#F6F4EF; padding: 5px; height: 200px; font: 11px Tahoma;}
+#add_box div{ float: right; padding: 20px 0px;}
+#add_box div input{ width:202px; height: 26px; background: url(images/send.gif) no-repeat; cursor:pointer;}
+
+#search_block{ width: 100%; float:left;}
+#search_block p{ font-weight: bold; margin: 0px; padding: 30px 0px 0px 60px;}
+#search_box{ float:left; border: 1px solid #E8E0D1; background: url(images/stat_bg.gif) repeat-x; margin: 10px 0px;}
+#search1{ float:left; width: 740px; background: url(images/lt_corn.gif) no-repeat left top; margin: -1px;}
+#search2{ float:left; width: 100%; background: url(images/rt_corn.gif) no-repeat right top;}
+#search3{ float:left; width: 100%; background: url(images/lb_corn.gif) no-repeat left bottom;}
+#search4{ float:left; width: 680px; background: url(images/rb_corn.gif) no-repeat right bottom; padding: 10px 0px 6px 60px;}
+#box_search{ background: url(images/search_bg.gif) repeat-x; float: left; width: 550px;}
+#search_l{ float: left;}
+#search_r{ float: right;}
+#search_input{ float:left; padding-top: 2px;}
+#search_input input{ width: 505px; padding: 3px 5px; border-width: 0px; font: 11px Tahoma;}
+#button{ float:left; padding: 2px 0px 0px 20px;}
+#button input{ background: url(images/button.gif) no-repeat; border-width:0px; width: 51px; height:21px; cursor:pointer;}
+
+.navigation { font-family: tahoma, sans-serif; FONT-SIZE: 11px; color:#666; border:0px; }
+.navigation a:link,
+.navigation a:visited,
+.navigation a:hover,
+.navigation a:active { text-decoration:none; color: #636363; background:#F9F9F9; border:1px solid #E6E6E6; padding:3px 6px; font-size:11px }
+.navigation a:hover { background:#0CC6DC; color:#FFFFFF; border-color:#E6E6E6; }
+.navigation span { text-decoration:none; background:#fff; padding:3px 6px; border:1px solid #E6E6E6; color:#ccc; font-size:11px; }
