@@ -35,7 +35,7 @@
 	в пустой строчке пишем полный путь до сервера, например:
 	
 	DEFINE('_ROOTPATH', '/www/home/public_html/');   
-
+</ol>
 
 админка - /_admin-panel/<br />
 	дефолтный логин: Admin<br />
