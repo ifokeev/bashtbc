@@ -29,17 +29,7 @@
 установка:
 
 1) открываем connect/db_config.php 
-2) правим весь массив $db_config, т.е. например:
-
-'name'        => 'bashTBC.ru - "To be CLONED" :)',  //title сайта
-'server'      => 'localhost',                       //сервер сайта
-'IMGserver'   => 'localhost/images',                //путь до папки с картинками
-'db_hostname' => 'localhost',                       //mysql-хост
-'db_username' => 'root',                            //mysql-логин
-'db_password' => '',                                //mysql-пароль
-'db_name'     => 'bashTBCru'                        //mysql-база с дампом bashtbc.ru
-
-
+2) правим весь массив $db_config
 3) открываем connect/php_self.php
 4) правим _ROOTPATH .
 в пустой строчке пишем полный путь до сервера, например:
