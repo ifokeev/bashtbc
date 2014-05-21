@@ -32,7 +32,7 @@
 <li>открываем connect/php_self.php</li>
 <li>правим _ROOTPATH .</li>
 	
-	в пустой строчке пишем полный путь до сервера, например:
+	в пустой строчке пишем полный путь до сервера, например:<br />
 	
 	<code>DEFINE('_ROOTPATH', '/www/home/public_html/');</code>  
 </ol>
