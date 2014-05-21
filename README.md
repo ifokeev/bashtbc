@@ -34,7 +34,7 @@
 	
 	в пустой строчке пишем полный путь до сервера, например:
 	
-	DEFINE('_ROOTPATH', '/www/home/public_html/');   
+	<code>DEFINE('_ROOTPATH', '/www/home/public_html/');</code>  
 </ol>
 
 админка - /_admin-panel/<br />
