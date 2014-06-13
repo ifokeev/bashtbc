@@ -40,3 +40,8 @@
 админка - /_admin-panel/<br />
 	дефолтный логин: Admin<br />
 	дефолтный пароль: Admin<br />
+	
+<br /><br />
+Демо:<br />
+http://bashtbc.vanya.cc/
+
